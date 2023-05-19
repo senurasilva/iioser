@@ -1,0 +1,220 @@
+{
+    margin: 0;
+    padding: 0;
+}
+#turtles
+{
+        background: linear-gradient(rgba(0,0,0,0.5),#142348), url(Images/10.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        border-top-left-radius: 3%;
+        border-top-right-radius: 3%;
+        border-bottom-left-radius: 3%;
+        border-bottom-right-radius: 3%;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    float: left;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(71, 242, 242);
+}
+.search{
+     width: 330px;
+     float: left;
+     margin-left: 600px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(30, 73, 95);
+    margin-top:33px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(15, 88, 91);
+    border: 2px solid rgb(31, 120, 122);
+    margin-top: 33px;
+    color: aliceblue;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+/*COURSE*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}.h1{
+    
+    font-weight: 600;
+    font-family: Brush Script MT;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+
+
+
+}
+.h1:hover{
+    color: #014c6b;
+    text-decoration: underline;
+}
+.p{
+    color: #053b41;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: Brush Script MT;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #094255;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 35px;
+    font-family: Brush Script MT;
+}
+.course-col:hover{
+    box-shadow: 0 0 100px 0px rgb(1, 28, 28);
+
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: beige;
+    position: relative;
+    font-size: 40px;
+}
+.box{
+    width: 80%;
+    height: 80%;
+    padding: 50px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: -1%;
+
+}
+/*The background of the bos*/
+.box .info{
+    color: aliceblue;
+    background-color: rgba(0, 12, 20, 0.222);
+    padding: 40px;
+   
+    transition: .5s;
+    font-size: 30px;
+    border-radius: 5%;
+}
+/*the hover effects for the bos*/
+.box .infro:hover{
+    background-color: aqua;
+}
+.box .info .Video{
+    margin-left: 400px;
+    border-radius: 3%;
+ 
+}
+.box .info .Map{
+    position: relative;
+    border: #000000;
+    border-radius: 3%;
+    
+
+    
+
+}
+.box .info .IMG{
+    margin-top: -700px;
+    border-radius: 3%;
+}
+.IMG:hover{
+    box-shadow: 0 0 40px 0px rgb(99, 139, 156);
+}
+.Map:hover{
+    box-shadow: 0 0 40px 0px rgb(99, 139, 156);
+}
+.Map{
+    border-radius: 3%;
+}
+.Img:hover{
+    box-shadow: 0 0 40px 0px rgb(99, 139, 156);
+
+}
+.Img{
+    border-radius: 3%;
+}
+.p1{
+    font-size: 20px;
+    color: #000000;
+    font-family: Arial;
+}

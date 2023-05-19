@@ -1,0 +1,129 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+        background: linear-gradient(rgba(0,0,0,0.5),#025b81), url(Images/3.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 150vh;
+        border-top-left-radius: 3%;
+        border-top-right-radius: 3%;
+        
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    float: left;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: arial;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(71, 242, 242);
+}
+.search{
+     width: 330px;
+     float: left;
+     margin-left: 600px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(1, 10, 15);
+    margin-top:33px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(15, 88, 91);
+    border: 2px solid rgb(31, 120, 122);
+    margin-top: 33px;
+    color: aliceblue;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+content{
+    
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    
+}    
+
+
+.home-c1{
+    margin-left: 50%;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    margin-left: 2%;
+    forced-color-adjust: rgb(7, 197, 226);
+    letter-spacing: 2px; 
+    padding: 20px;
+    padding-bottom: 25px;
+    font-family: 'arial';
+    letter-spacing: 1.2px;
+    line-height: 45px
+}
+
+
+
+.content-h{
+    display: flex;
+    padding: 10px;
+}
+.Video{
+    border-radius: 5%;
+    margin-left: 53%;
+    margin-top: -450px;
+    
+    
+}
+.home-h2{
+     color: blue;
+    
+}
